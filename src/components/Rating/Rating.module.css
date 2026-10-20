@@ -1,0 +1,13 @@
+.rating {
+    display: flex;
+    gap: 4px;
+    font-size: 20px;
+}
+
+.filled {
+    color: #f5a623;
+}
+
+.empty {
+    color: #000;
+}

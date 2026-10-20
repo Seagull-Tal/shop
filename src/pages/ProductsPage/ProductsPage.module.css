@@ -1,0 +1,33 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 16px;
+    min-height: 110px;
+    padding: 16px;
+    border: 1px solid #333;
+}
+
+.title {
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
+}
+
+.title:hover {
+    text-decoration: underline;
+}
+
+.message {
+    margin: 40px;
+    font-size: 20px;
+}
